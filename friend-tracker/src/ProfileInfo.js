@@ -1,6 +1,6 @@
 import { myProfileData } from  './data';
 
-export function ProfileInfo() { 
+export const ProfileInfo =() => { 
     return (
         <div>
             <img

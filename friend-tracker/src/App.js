@@ -2,7 +2,7 @@ import { WelcomeMessage } from './WelcomeMessage';
 import { ProfileInfo } from './ProfileInfo';
 import './App.css';
 
-function App() {
+ export const App = () => {
   return (
     <div>
       <h1>Friend Tracker</h1>
@@ -11,6 +11,6 @@ function App() {
     </div>
     
   );
-}
+} 
 
-export default App;
+
