@@ -1,6 +1,7 @@
-import { Fragment } from 'react';
+// import { Fragment } from 'react';
 import { myProfileData } from  './data';
 import './ProfileInfo.css';
+import './App.css';
 
 export const ProfileInfo =() => { 
     return (
