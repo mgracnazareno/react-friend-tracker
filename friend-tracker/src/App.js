@@ -1,3 +1,5 @@
+
+   
 import { WelcomeMessage } from './WelcomeMessage';
 import { ProfileInfo } from './ProfileInfo';
 import './App.css';
@@ -6,10 +8,11 @@ import './App.css';
   return (
     <div>
       <h1>Friend Tracker</h1>
-       <WelcomeMessage/>
-       <ProfileInfo/>
+        <div className="content-container">
+          <WelcomeMessage/>
+          <ProfileInfo/>
+        </div>
     </div>
-    
   );
 } 
 

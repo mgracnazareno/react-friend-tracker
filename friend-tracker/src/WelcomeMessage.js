@@ -1,4 +1,5 @@
 import { myProfileData } from "./data";
+import './WelcomeMessage.css';
 
 export const WelcomeMessage = () => {
     return (
