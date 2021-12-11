@@ -1,9 +1,10 @@
+import { Fragment } from 'react';
 import { myProfileData } from  './data';
 import './ProfileInfo.css';
 
 export const ProfileInfo =() => { 
     return (
-        <div>
+        <Fragment>
             <div className="profile-pic-container">
                 <div className="profile-pic-wrap">
                     <img 
@@ -23,6 +24,6 @@ export const ProfileInfo =() => {
             <p>{myProfileData.birthday}</p>
             <h3>Interests</h3>
             <p>{myProfileData.interests.join(', ')}</p>
-        </div>     
+        </Fragment>     
     )
 }
