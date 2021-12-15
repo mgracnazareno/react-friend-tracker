@@ -2,8 +2,7 @@
 import { myProfileData } from  './data';
 import './ProfileInfo.css';
 import './App.css';
-
-export const ProfileInfo =() => { 
+export const ProfileInfo =(props) => { 
     return (
         <>
         <div className="profile-pic-container">
